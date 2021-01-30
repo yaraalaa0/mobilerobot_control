@@ -14,7 +14,7 @@ a request to specify what he wants the robot to do. The user can choose between 
 5 -> go to a specified target position using Bug0 algorithm (which is less efficient than move_base)
 
 In the first choice, the main node sends a service request to the tiserver and gets a random target position. Then, it publishes this position to the /move_base/goal and 
-then continuously check the status of the goal by subscribing to /move_base/status topic. Once, the status indicates reaching the target. The interface asks the user to enter
+then continuously checks the status of the goal by subscribing to /move_base/status topic. Once, the status indicates reaching the target. The interface asks the user to enter
 another request.
 
 In the second choice, the main node asks the user to choose one out of 6 possible target positions, and publishes it to /move_base/goal as in the previous choice. 
