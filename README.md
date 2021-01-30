@@ -31,6 +31,23 @@ There is a timeout value of 60 seconds. If the bug0 algorithm couldn't reach the
 
 
 
+## To run the simulation:
+
+- Clone the repository into your ROS workspace
+
+- Go inside the root of your workspace and run:
+
+  $ catkin_make
+
+  $ roslaunch final_assignment simulation_gmapping.launch
+  
+  $ roslaunch final_assignment move_base.launch
+  
+  $ roslaunch final_assignment bug0.launch
+  
+  $ rosrun final_assignment user_interface_main.py
+  
+
 
 **This program is composed of two packages: my_srv (containing the service files) and final_assignment (containing the main code of the program and the simulation files)**
 
@@ -58,22 +75,6 @@ There is a timeout value of 60 seconds. If the bug0 algorithm couldn't reach the
 ![alt text](https://github.com/yaraalaa0/mobilerobot_control/blob/main/graph_2.PNG)
 
 
-
-## To run the simulation:
-
-- Clone the repository into your ROS workspace
-
-- Go inside the root of your workspace and run:
-
-  $ catkin_make
-
-  $ roslaunch final_assignment simulation_gmapping.launch
-  
-  $ roslaunch final_assignment move_base.launch
-  
-  $ roslaunch final_assignment bug0.launch
-  
-  $ rosrun final_assignment user_interface_main.py
 
 
 ## Limitations
