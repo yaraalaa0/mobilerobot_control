@@ -7,16 +7,21 @@ To run the simulation:
 - Clone the repository into your ROS workspace
 
 - Go inside the root of your workspace and run:
+
   $ catkin_make
+
   $ roslaunch final_assignment simulation_gmapping.launch
+  
   $ roslaunch final_assignment move_base.launch
+  
   $ roslaunch final_assignment bug0.launch
+  
   $ rosrun final_assignment user_interface_main.py
 
 
 
 
-This program is composed of sveral nodes: 
+This program is composed of several nodes: 
 
 - Gazebo simulator: for simulating the robot's behaviour in the predefined environment
 
