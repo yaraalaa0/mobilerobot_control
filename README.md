@@ -29,6 +29,8 @@ This program is composed of several nodes:
 
 - Move Base node: for path planning and driving the robot towards allocated targets in the environment
 
+- tiserver service node: for generating random integer between min and max integers
+
 - Bug0 node: for driving the robot towards targets using different algorithm than move_base 
 
 - Wall follower service node: for making the robot move following the walls in the environment
